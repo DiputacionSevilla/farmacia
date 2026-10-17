@@ -9,7 +9,7 @@
 
 import { cookies } from "next/headers";
 import { SignJWT, jwtVerify } from "jose";
-import type { AdminRole } from "@prisma/client";
+import type { AdminRole } from "@/generated/prisma";
 
 const SESSION_COOKIE = "farmacias_admin_session";
 const SESSION_DURATION_SECONDS = 60 * 60 * 8; // 8 horas

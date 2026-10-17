@@ -1,6 +1,6 @@
 import { randomUUID } from "node:crypto";
 import { prisma } from "./prisma";
-import type { AuditResult } from "@prisma/client";
+import type { AuditResult } from "@/generated/prisma";
 
 /** Registra un evento de auditoría (§8 `audit_events`, RN008/009). */
 export async function recordAuditEvent(params: {

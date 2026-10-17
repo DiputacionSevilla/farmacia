@@ -12,14 +12,12 @@
  * aparezcan en "Abiertas ahora" por ese motivo; la guardia oficial sí
  * queda disponible desde el primer arranque.
  */
-import { PrismaClient } from "@prisma/client";
 import bcrypt from "bcryptjs";
 import { createHash } from "node:crypto";
 import { mkdirSync, readFileSync, copyFileSync, existsSync } from "node:fs";
 import path from "node:path";
 import { getDutyWindow } from "../src/lib/temporal-engine";
-
-const prisma = new PrismaClient();
+import { prisma } from "../src/lib/prisma";
 
 interface SeedPharmacy {
   key: string;
