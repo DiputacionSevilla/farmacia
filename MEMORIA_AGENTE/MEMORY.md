@@ -1,0 +1,4 @@
+- [Resumen del proyecto](project-overview.md) — qué es, dónde está el código y los documentos de referencia (SDD + Anexo OCR)
+- [Objetivo de despliegue](deployment-target.md) — CPD municipal, Nginx Proxy Manager, farmacias.mairenadelalcor.net, flujo git pull + Docker Compose
+- [Decisiones de arquitectura](architecture-decisions.md) — por qué se tomaron ciertas decisiones técnicas no obvias desde el código, y bugs ya corregidos a no repetir
+- [Estado al cierre del 17-oct-2026](session-2026-10-17-status.md) — qué quedó pendiente de confirmar en el CPD y próximos pasos
