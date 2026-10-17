@@ -40,6 +40,10 @@ export function SiteFooter() {
             informacion@mairenadelalcor.org
           </a>
         </p>
+        <p className="mt-2 text-xs text-brand-blue-500">
+          Desarrollado y mantenido por el Departamento de Informática del
+          Ayuntamiento de Mairena del Alcor.
+        </p>
       </div>
     </footer>
   );

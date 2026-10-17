@@ -12,7 +12,8 @@ export default function LegalNoticePage() {
       </h2>
       <p className="mt-2 text-brand-blue-800">
         Este sitio web es un servicio informativo del Ayuntamiento de
-        Mairena del Alcor (Sevilla).
+        Mairena del Alcor (Sevilla), desarrollado y mantenido por el
+        Departamento de Informática municipal.
       </p>
 
       <h2 className="mt-6 text-lg font-semibold text-brand-blue-900">

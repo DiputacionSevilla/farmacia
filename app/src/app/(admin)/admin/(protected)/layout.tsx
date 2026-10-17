@@ -67,6 +67,9 @@ export default async function AdminProtectedLayout({
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6">
         {children}
       </main>
+      <footer className="mx-auto w-full max-w-6xl px-4 pb-4 text-xs text-brand-blue-500">
+        Departamento de Informática · Ayuntamiento de Mairena del Alcor
+      </footer>
     </div>
   );
 }

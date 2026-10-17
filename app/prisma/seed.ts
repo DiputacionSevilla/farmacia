@@ -52,8 +52,14 @@ async function main() {
 
   const keyToId = new Map<string, string>();
   for (const p of pharmaciesSeed) {
+    // No hay una columna @unique natural en el esquema para esta clave; se
+    // busca por teléfono (estable y único en este directorio) para que
+    // volver a ejecutar la siembra no duplique farmacias.
+    const existing = await prisma.pharmacy.findFirst({
+      where: { phone: p.phone },
+    });
     const pharmacy = await prisma.pharmacy.upsert({
-      where: { id: keyToId.get(p.key) ?? "00000000-0000-0000-0000-000000000000" },
+      where: { id: existing?.id ?? "00000000-0000-0000-0000-000000000000" },
       update: {},
       create: {
         officialName: p.displayName,

@@ -3,8 +3,16 @@
 PWA municipal para consultar qué farmacias están abiertas y cuál está de
 guardia en Mairena del Alcor, con panel de administración para regenerar el
 calendario a partir del PDF oficial del Colegio Oficial de Farmacéuticos de
-Sevilla. Especificación completa en
-[`../SDD_PWA_Farmacias_Guardia_Mairena.md`](../SDD_PWA_Farmacias_Guardia_Mairena.md).
+Sevilla.
+
+**Titular y responsable del servicio:** Ayuntamiento de Mairena del Alcor.
+**Desarrollo y mantenimiento:** Departamento de Informática del
+Ayuntamiento de Mairena del Alcor.
+
+Especificación completa en
+[`../SDD_PWA_Farmacias_Guardia_Mairena.md`](../SDD_PWA_Farmacias_Guardia_Mairena.md)
+y en el
+[`../ANEXO_SDD_Descubrimiento_PDF_OCR_Farmacias_Mairena.md`](../ANEXO_SDD_Descubrimiento_PDF_OCR_Farmacias_Mairena.md).
 
 ## Arquitectura
 

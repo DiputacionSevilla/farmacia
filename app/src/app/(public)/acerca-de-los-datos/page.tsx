@@ -102,6 +102,14 @@ export default async function AboutDataPage() {
         </a>
         .
       </p>
+
+      <h2 className="mt-6 text-lg font-semibold text-brand-blue-900">
+        Desarrollo técnico
+      </h2>
+      <p className="mt-2 text-brand-blue-800">
+        Esta aplicación ha sido desarrollada y es mantenida por el
+        Departamento de Informática del Ayuntamiento de Mairena del Alcor.
+      </p>
     </div>
   );
 }
