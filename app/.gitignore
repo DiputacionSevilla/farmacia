@@ -30,8 +30,9 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files — plantilla sí se versiona, los reales nunca
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -39,10 +40,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# env
-.env
-.env.local
 
 # storage local de PDFs (solo desarrollo)
 /storage
