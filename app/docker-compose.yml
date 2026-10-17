@@ -1,0 +1,52 @@
+# Despliegue de producción — CPD del Ayuntamiento de Mairena del Alcor.
+#
+# Arquitectura deliberadamente simple: dos contenedores (aplicación web y
+# base de datos PostgreSQL). El acceso desde internet llega a través de
+# Nginx Proxy Manager (fuera de este compose), que debe tener un "proxy
+# host" apuntando a http://<ip-de-esta-maquina>:${APP_PORT:-3000} para el
+# dominio farmacias.mairenadelalcor.net, con SSL gestionado por NPM.
+#
+# Variables de entorno: copiar .env.example a .env y ajustar antes de
+# desplegar. Nunca commitear el .env real.
+
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgresql://${DB_USER:-farmacias}:${DB_PASSWORD:?Debe definirse DB_PASSWORD}@db:5432/${DB_NAME:-farmacias_guardia}?schema=public
+      AUTH_SECRET: ${AUTH_SECRET:?Debe definirse AUTH_SECRET}
+      DUTY_PDF_URL: ${DUTY_PDF_URL:-https://servicios.farmaceuticosdesevilla.es/images/farmaciasguardia/T4/mairenadelalcor.pdf}
+      DUTY_PDF_ALLOWED_HOSTS: ${DUTY_PDF_ALLOWED_HOSTS:-servicios.farmaceuticosdesevilla.es}
+      STORAGE_DRIVER: filesystem
+      STORAGE_PATH: /app/storage
+      APP_TIMEZONE: Europe/Madrid
+      NODE_ENV: production
+    ports:
+      - "${APP_PORT:-3000}:3000"
+    volumes:
+      - app_storage:/app/storage
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${DB_USER:-farmacias}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?Debe definirse DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME:-farmacias_guardia}
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-farmacias}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    # No se publica ningún puerto al host: solo accesible desde `app`
+    # dentro de la red interna del compose.
+
+volumes:
+  db_data:
+  app_storage:

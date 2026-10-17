@@ -1,0 +1,17 @@
+# Entorno de desarrollo local: solo la base de datos.
+# La app se ejecuta con `npm run dev` en el host, apuntando a este Postgres.
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: farmacias
+      POSTGRES_PASSWORD: farmacias
+      POSTGRES_DB: farmacias_guardia
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_dev_data:/var/lib/postgresql/data
+
+volumes:
+  db_dev_data:

@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+/*
+ * Paleta institucional — azul y naranja de la bandera y el escudo de
+ * Mairena del Alcor. Los tonos de azul se tomaron por muestreo del propio
+ * escudo (escudo-mairena.webp); el naranja corresponde a los adornos del
+ * escudo y refuerza el contraste con el azul.
+ */
+:root {
+  --background: #f7f8fb;
+  --foreground: #16213e;
+
+  --color-brand-blue-950: #0a1830;
+  --color-brand-blue-900: #0f2a5e;
+  --color-brand-blue-800: #15386f;
+  --color-brand-blue-700: #1c4a8c;
+  --color-brand-blue-600: #2a5ea8;
+  --color-brand-blue-100: #e3ebf7;
+  --color-brand-blue-50: #f2f5fb;
+
+  --color-brand-orange-700: #c45a13;
+  --color-brand-orange-600: #e06b1a;
+  --color-brand-orange-500: #f2762e;
+  --color-brand-orange-400: #ff9248;
+  --color-brand-orange-100: #ffe6d3;
+  --color-brand-orange-50: #fff3e9;
+
+  --color-status-open: #1c7c4f;
+  --color-status-open-bg: #e3f6ec;
+  --color-status-duty: var(--color-brand-orange-600);
+  --color-status-duty-bg: var(--color-brand-orange-100);
+  --color-status-warn: #a84b0e;
+  --color-status-warn-bg: #fdecd9;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --color-brand-blue-950: var(--color-brand-blue-950);
+  --color-brand-blue-900: var(--color-brand-blue-900);
+  --color-brand-blue-800: var(--color-brand-blue-800);
+  --color-brand-blue-700: var(--color-brand-blue-700);
+  --color-brand-blue-600: var(--color-brand-blue-600);
+  --color-brand-blue-100: var(--color-brand-blue-100);
+  --color-brand-blue-50: var(--color-brand-blue-50);
+
+  --color-brand-orange-700: var(--color-brand-orange-700);
+  --color-brand-orange-600: var(--color-brand-orange-600);
+  --color-brand-orange-500: var(--color-brand-orange-500);
+  --color-brand-orange-400: var(--color-brand-orange-400);
+  --color-brand-orange-100: var(--color-brand-orange-100);
+  --color-brand-orange-50: var(--color-brand-orange-50);
+
+  --color-status-open: var(--color-status-open);
+  --color-status-open-bg: var(--color-status-open-bg);
+  --color-status-duty: var(--color-status-duty);
+  --color-status-duty-bg: var(--color-status-duty-bg);
+  --color-status-warn: var(--color-status-warn);
+  --color-status-warn-bg: var(--color-status-warn-bg);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Foco visible consistente (RF accesibilidad, WCAG 2.2 AA) */
+:focus-visible {
+  outline: 3px solid var(--color-brand-orange-500);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Objetivo táctil mínimo 44x44 CSS px (§10.2) */
+.tap-target {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Oculta visualmente pero mantiene accesible a lectores de pantalla */
+.sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

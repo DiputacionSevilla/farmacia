@@ -1,0 +1,1514 @@
+[
+  {
+    "date": "2026-10-05",
+    "shift": "day",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-10-05",
+    "shift": "night",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-10-06",
+    "shift": "day",
+    "pharmacyKey": "cervantes",
+    "municipality": "Mairena del Alcor",
+    "address": "Cervantes, 17",
+    "phone": "955942079",
+    "owner": "Salud y José Ma. Jiménez Jiménez"
+  },
+  {
+    "date": "2026-10-06",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Rosario, 60, paralela c/Corredera cerca Ayunt",
+    "phone": "955945031",
+    "owner": "López Benítez, Fernando"
+  },
+  {
+    "date": "2026-10-07",
+    "shift": "day",
+    "pharmacyKey": "retamiro",
+    "municipality": "Mairena del Alcor",
+    "address": "Alcalde Retamiro, esq. Ronquera,s/n.",
+    "phone": "955746069",
+    "owner": "Lorenzo y Teresa Sánchez"
+  },
+  {
+    "date": "2026-10-07",
+    "shift": "night",
+    "pharmacyKey": "retamiro",
+    "municipality": "Mairena del Alcor",
+    "address": "Alcalde Retamiro, esq. Ronquera,s/n.",
+    "phone": "955746069",
+    "owner": "Lorenzo y Teresa Sánchez"
+  },
+  {
+    "date": "2026-10-08",
+    "shift": "day",
+    "pharmacyKey": "ancha",
+    "municipality": "Mairena del Alcor",
+    "address": "Ancha, 59",
+    "phone": "955943137",
+    "owner": "Adelina Guillén Jiménez-Marina Cejudo Guillén"
+  },
+  {
+    "date": "2026-10-08",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Calderon de la Barca, 2. junto Centro Salud",
+    "phone": "955945476",
+    "owner": "Emilia Mª Piñero Delgado"
+  },
+  {
+    "date": "2026-10-09",
+    "shift": "day",
+    "pharmacyKey": "benajete",
+    "municipality": "Mairena del Alcor",
+    "address": "Benajete, 53",
+    "phone": "955744599",
+    "owner": "Javier Juarez Manzano"
+  },
+  {
+    "date": "2026-10-09",
+    "shift": "night",
+    "pharmacyKey": "benajete",
+    "municipality": "Mairena del Alcor",
+    "address": "Benajete, 53",
+    "phone": "955744599",
+    "owner": "Javier Juarez Manzano"
+  },
+  {
+    "date": "2026-10-10",
+    "shift": "day",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-10-10",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Rosario, 60, paralela c/Corredera cerca Ayunt",
+    "phone": "955945031",
+    "owner": "López Benítez, Fernando"
+  },
+  {
+    "date": "2026-10-11",
+    "shift": "day",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-10-11",
+    "shift": "night",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-10-12",
+    "shift": "day",
+    "pharmacyKey": "daoiz",
+    "municipality": "Mairena del Alcor",
+    "address": "Daoiz, 8",
+    "phone": "955942032",
+    "owner": "Antonio Ballesteros Montoro"
+  },
+  {
+    "date": "2026-10-12",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "La Muela n. 20, junto a la Recovera",
+    "phone": "955945019",
+    "owner": "Librada Moreno de los Santos"
+  },
+  {
+    "date": "2026-10-13",
+    "shift": "day",
+    "pharmacyKey": "marchenilla",
+    "municipality": "Mairena del Alcor",
+    "address": "Marchenilla, 37",
+    "phone": "955942116",
+    "owner": "Mª Gracia y Mª José Ortega Hernández"
+  },
+  {
+    "date": "2026-10-13",
+    "shift": "night",
+    "pharmacyKey": "marchenilla",
+    "municipality": "Mairena del Alcor",
+    "address": "Marchenilla, 37",
+    "phone": "955942116",
+    "owner": "Mª Gracia y Mª José Ortega Hernández"
+  },
+  {
+    "date": "2026-10-14",
+    "shift": "day",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-10-14",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Manuel Jiménez Leon,81, (c/del Cementerio)",
+    "phone": "955740331",
+    "owner": "Ma. Carmen Sánchez García"
+  },
+  {
+    "date": "2026-10-15",
+    "shift": "day",
+    "pharmacyKey": "cervantes",
+    "municipality": "Mairena del Alcor",
+    "address": "Cervantes, 17",
+    "phone": "955942079",
+    "owner": "Salud y José Ma. Jiménez Jiménez"
+  },
+  {
+    "date": "2026-10-15",
+    "shift": "night",
+    "pharmacyKey": "cervantes",
+    "municipality": "Mairena del Alcor",
+    "address": "Cervantes, 17",
+    "phone": "955942079",
+    "owner": "Salud y José Ma. Jiménez Jiménez"
+  },
+  {
+    "date": "2026-10-16",
+    "shift": "day",
+    "pharmacyKey": "retamiro",
+    "municipality": "Mairena del Alcor",
+    "address": "Alcalde Retamiro, esq. Ronquera,s/n.",
+    "phone": "955746069",
+    "owner": "Lorenzo y Teresa Sánchez"
+  },
+  {
+    "date": "2026-10-16",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Fray Bartolomé de las Casas, 54, frente al instituto Blas Infante",
+    "phone": "955946255",
+    "owner": "Andrades Ponce, Manuel"
+  },
+  {
+    "date": "2026-10-17",
+    "shift": "day",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-10-17",
+    "shift": "night",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-10-18",
+    "shift": "day",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-10-18",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Corredera, 51, frente Plaza de Abastos",
+    "phone": "955945227",
+    "owner": "Mª Luisa Godoy Díaz-Alfonso Corraliza Alarcón"
+  },
+  {
+    "date": "2026-10-19",
+    "shift": "day",
+    "pharmacyKey": "daoiz",
+    "municipality": "Mairena del Alcor",
+    "address": "Daoiz, 8",
+    "phone": "955942032",
+    "owner": "Antonio Ballesteros Montoro"
+  },
+  {
+    "date": "2026-10-19",
+    "shift": "night",
+    "pharmacyKey": "daoiz",
+    "municipality": "Mairena del Alcor",
+    "address": "Daoiz, 8",
+    "phone": "955942032",
+    "owner": "Antonio Ballesteros Montoro"
+  },
+  {
+    "date": "2026-10-20",
+    "shift": "day",
+    "pharmacyKey": "retamiro",
+    "municipality": "Mairena del Alcor",
+    "address": "Alcalde Retamiro, esq. Ronquera,s/n.",
+    "phone": "955746069",
+    "owner": "Lorenzo y Teresa Sánchez"
+  },
+  {
+    "date": "2026-10-20",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Corredera, 319, carrt.arriba dirección Carmona",
+    "phone": "955740779",
+    "owner": "Manuel León Buide"
+  },
+  {
+    "date": "2026-10-21",
+    "shift": "day",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-10-21",
+    "shift": "night",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-10-22",
+    "shift": "day",
+    "pharmacyKey": "cervantes",
+    "municipality": "Mairena del Alcor",
+    "address": "Cervantes, 17",
+    "phone": "955942079",
+    "owner": "Salud y José Ma. Jiménez Jiménez"
+  },
+  {
+    "date": "2026-10-22",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Corredera, 51, frente Plaza de Abastos",
+    "phone": "955945227",
+    "owner": "Mª Luisa Godoy Díaz-Alfonso Corraliza Alarcón"
+  },
+  {
+    "date": "2026-10-23",
+    "shift": "day",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-10-23",
+    "shift": "night",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-10-24",
+    "shift": "day",
+    "pharmacyKey": "ancha",
+    "municipality": "Mairena del Alcor",
+    "address": "Ancha, 59",
+    "phone": "955943137",
+    "owner": "Adelina Guillén Jiménez-Marina Cejudo Guillén"
+  },
+  {
+    "date": "2026-10-24",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Corredera, 319, carrt.arriba dirección Carmona",
+    "phone": "955740779",
+    "owner": "Manuel León Buide"
+  },
+  {
+    "date": "2026-10-25",
+    "shift": "day",
+    "pharmacyKey": "ancha",
+    "municipality": "Mairena del Alcor",
+    "address": "Ancha, 59",
+    "phone": "955943137",
+    "owner": "Adelina Guillén Jiménez-Marina Cejudo Guillén"
+  },
+  {
+    "date": "2026-10-25",
+    "shift": "night",
+    "pharmacyKey": "ancha",
+    "municipality": "Mairena del Alcor",
+    "address": "Ancha, 59",
+    "phone": "955943137",
+    "owner": "Adelina Guillén Jiménez-Marina Cejudo Guillén"
+  },
+  {
+    "date": "2026-10-26",
+    "shift": "day",
+    "pharmacyKey": "marchenilla",
+    "municipality": "Mairena del Alcor",
+    "address": "Marchenilla, 37",
+    "phone": "955942116",
+    "owner": "Mª Gracia y Mª José Ortega Hernández"
+  },
+  {
+    "date": "2026-10-26",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Rosario, 60, paralela c/Corredera cerca Ayunt",
+    "phone": "955945031",
+    "owner": "López Benítez, Fernando"
+  },
+  {
+    "date": "2026-10-27",
+    "shift": "day",
+    "pharmacyKey": "benajete",
+    "municipality": "Mairena del Alcor",
+    "address": "Benajete, 53",
+    "phone": "955744599",
+    "owner": "Javier Juarez Manzano"
+  },
+  {
+    "date": "2026-10-27",
+    "shift": "night",
+    "pharmacyKey": "benajete",
+    "municipality": "Mairena del Alcor",
+    "address": "Benajete, 53",
+    "phone": "955744599",
+    "owner": "Javier Juarez Manzano"
+  },
+  {
+    "date": "2026-10-28",
+    "shift": "day",
+    "pharmacyKey": "ancha",
+    "municipality": "Mairena del Alcor",
+    "address": "Ancha, 59",
+    "phone": "955943137",
+    "owner": "Adelina Guillén Jiménez-Marina Cejudo Guillén"
+  },
+  {
+    "date": "2026-10-28",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Calderon de la Barca, 2. junto Centro Salud",
+    "phone": "955945476",
+    "owner": "Emilia Mª Piñero Delgado"
+  },
+  {
+    "date": "2026-10-29",
+    "shift": "day",
+    "pharmacyKey": "retamiro",
+    "municipality": "Mairena del Alcor",
+    "address": "Alcalde Retamiro, esq. Ronquera,s/n.",
+    "phone": "955746069",
+    "owner": "Lorenzo y Teresa Sánchez"
+  },
+  {
+    "date": "2026-10-29",
+    "shift": "night",
+    "pharmacyKey": "retamiro",
+    "municipality": "Mairena del Alcor",
+    "address": "Alcalde Retamiro, esq. Ronquera,s/n.",
+    "phone": "955746069",
+    "owner": "Lorenzo y Teresa Sánchez"
+  },
+  {
+    "date": "2026-10-30",
+    "shift": "day",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-10-30",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "La Muela n. 20, junto a la Recovera",
+    "phone": "955945019",
+    "owner": "Librada Moreno de los Santos"
+  },
+  {
+    "date": "2026-10-31",
+    "shift": "day",
+    "pharmacyKey": "daoiz",
+    "municipality": "Mairena del Alcor",
+    "address": "Daoiz, 8",
+    "phone": "955942032",
+    "owner": "Antonio Ballesteros Montoro"
+  },
+  {
+    "date": "2026-10-31",
+    "shift": "night",
+    "pharmacyKey": "daoiz",
+    "municipality": "Mairena del Alcor",
+    "address": "Daoiz, 8",
+    "phone": "955942032",
+    "owner": "Antonio Ballesteros Montoro"
+  },
+  {
+    "date": "2026-11-01",
+    "shift": "day",
+    "pharmacyKey": "daoiz",
+    "municipality": "Mairena del Alcor",
+    "address": "Daoiz, 8",
+    "phone": "955942032",
+    "owner": "Antonio Ballesteros Montoro"
+  },
+  {
+    "date": "2026-11-01",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Manuel Jiménez Leon,81, (c/del Cementerio)",
+    "phone": "955740331",
+    "owner": "Ma. Carmen Sánchez García"
+  },
+  {
+    "date": "2026-11-02",
+    "shift": "day",
+    "pharmacyKey": "cervantes",
+    "municipality": "Mairena del Alcor",
+    "address": "Cervantes, 17",
+    "phone": "955942079",
+    "owner": "Salud y José Ma. Jiménez Jiménez"
+  },
+  {
+    "date": "2026-11-02",
+    "shift": "night",
+    "pharmacyKey": "cervantes",
+    "municipality": "Mairena del Alcor",
+    "address": "Cervantes, 17",
+    "phone": "955942079",
+    "owner": "Salud y José Ma. Jiménez Jiménez"
+  },
+  {
+    "date": "2026-11-03",
+    "shift": "day",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-11-03",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Manuel Jiménez Leon,81, (c/del Cementerio)",
+    "phone": "955740331",
+    "owner": "Ma. Carmen Sánchez García"
+  },
+  {
+    "date": "2026-11-04",
+    "shift": "day",
+    "pharmacyKey": "daoiz",
+    "municipality": "Mairena del Alcor",
+    "address": "Daoiz, 8",
+    "phone": "955942032",
+    "owner": "Antonio Ballesteros Montoro"
+  },
+  {
+    "date": "2026-11-04",
+    "shift": "night",
+    "pharmacyKey": "daoiz",
+    "municipality": "Mairena del Alcor",
+    "address": "Daoiz, 8",
+    "phone": "955942032",
+    "owner": "Antonio Ballesteros Montoro"
+  },
+  {
+    "date": "2026-11-05",
+    "shift": "day",
+    "pharmacyKey": "benajete",
+    "municipality": "Mairena del Alcor",
+    "address": "Benajete, 53",
+    "phone": "955744599",
+    "owner": "Javier Juarez Manzano"
+  },
+  {
+    "date": "2026-11-05",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Fray Bartolomé de las Casas, 54, frente al instituto Blas Infante",
+    "phone": "955946255",
+    "owner": "Andrades Ponce, Manuel"
+  },
+  {
+    "date": "2026-11-06",
+    "shift": "day",
+    "pharmacyKey": "ancha",
+    "municipality": "Mairena del Alcor",
+    "address": "Ancha, 59",
+    "phone": "955943137",
+    "owner": "Adelina Guillén Jiménez-Marina Cejudo Guillén"
+  },
+  {
+    "date": "2026-11-06",
+    "shift": "night",
+    "pharmacyKey": "ancha",
+    "municipality": "Mairena del Alcor",
+    "address": "Ancha, 59",
+    "phone": "955943137",
+    "owner": "Adelina Guillén Jiménez-Marina Cejudo Guillén"
+  },
+  {
+    "date": "2026-11-07",
+    "shift": "day",
+    "pharmacyKey": "marchenilla",
+    "municipality": "Mairena del Alcor",
+    "address": "Marchenilla, 37",
+    "phone": "955942116",
+    "owner": "Mª Gracia y Mª José Ortega Hernández"
+  },
+  {
+    "date": "2026-11-07",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Fray Bartolomé de las Casas, 54, frente al instituto Blas Infante",
+    "phone": "955946255",
+    "owner": "Andrades Ponce, Manuel"
+  },
+  {
+    "date": "2026-11-08",
+    "shift": "day",
+    "pharmacyKey": "marchenilla",
+    "municipality": "Mairena del Alcor",
+    "address": "Marchenilla, 37",
+    "phone": "955942116",
+    "owner": "Mª Gracia y Mª José Ortega Hernández"
+  },
+  {
+    "date": "2026-11-08",
+    "shift": "night",
+    "pharmacyKey": "marchenilla",
+    "municipality": "Mairena del Alcor",
+    "address": "Marchenilla, 37",
+    "phone": "955942116",
+    "owner": "Mª Gracia y Mª José Ortega Hernández"
+  },
+  {
+    "date": "2026-11-09",
+    "shift": "day",
+    "pharmacyKey": "retamiro",
+    "municipality": "Mairena del Alcor",
+    "address": "Alcalde Retamiro, esq. Ronquera,s/n.",
+    "phone": "955746069",
+    "owner": "Lorenzo y Teresa Sánchez"
+  },
+  {
+    "date": "2026-11-09",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Corredera, 319, carrt.arriba dirección Carmona",
+    "phone": "955740779",
+    "owner": "Manuel León Buide"
+  },
+  {
+    "date": "2026-11-10",
+    "shift": "day",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-11-10",
+    "shift": "night",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-11-11",
+    "shift": "day",
+    "pharmacyKey": "marchenilla",
+    "municipality": "Mairena del Alcor",
+    "address": "Marchenilla, 37",
+    "phone": "955942116",
+    "owner": "Mª Gracia y Mª José Ortega Hernández"
+  },
+  {
+    "date": "2026-11-11",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Corredera, 51, frente Plaza de Abastos",
+    "phone": "955945227",
+    "owner": "Mª Luisa Godoy Díaz-Alfonso Corraliza Alarcón"
+  },
+  {
+    "date": "2026-11-12",
+    "shift": "day",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-11-12",
+    "shift": "night",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-11-13",
+    "shift": "day",
+    "pharmacyKey": "daoiz",
+    "municipality": "Mairena del Alcor",
+    "address": "Daoiz, 8",
+    "phone": "955942032",
+    "owner": "Antonio Ballesteros Montoro"
+  },
+  {
+    "date": "2026-11-13",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Rosario, 60, paralela c/Corredera cerca Ayunt",
+    "phone": "955945031",
+    "owner": "López Benítez, Fernando"
+  },
+  {
+    "date": "2026-11-14",
+    "shift": "day",
+    "pharmacyKey": "cervantes",
+    "municipality": "Mairena del Alcor",
+    "address": "Cervantes, 17",
+    "phone": "955942079",
+    "owner": "Salud y José Ma. Jiménez Jiménez"
+  },
+  {
+    "date": "2026-11-14",
+    "shift": "night",
+    "pharmacyKey": "cervantes",
+    "municipality": "Mairena del Alcor",
+    "address": "Cervantes, 17",
+    "phone": "955942079",
+    "owner": "Salud y José Ma. Jiménez Jiménez"
+  },
+  {
+    "date": "2026-11-15",
+    "shift": "day",
+    "pharmacyKey": "cervantes",
+    "municipality": "Mairena del Alcor",
+    "address": "Cervantes, 17",
+    "phone": "955942079",
+    "owner": "Salud y José Ma. Jiménez Jiménez"
+  },
+  {
+    "date": "2026-11-15",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "La Muela n. 20, junto a la Recovera",
+    "phone": "955945019",
+    "owner": "Librada Moreno de los Santos"
+  },
+  {
+    "date": "2026-11-16",
+    "shift": "day",
+    "pharmacyKey": "benajete",
+    "municipality": "Mairena del Alcor",
+    "address": "Benajete, 53",
+    "phone": "955744599",
+    "owner": "Javier Juarez Manzano"
+  },
+  {
+    "date": "2026-11-16",
+    "shift": "night",
+    "pharmacyKey": "benajete",
+    "municipality": "Mairena del Alcor",
+    "address": "Benajete, 53",
+    "phone": "955744599",
+    "owner": "Javier Juarez Manzano"
+  },
+  {
+    "date": "2026-11-17",
+    "shift": "day",
+    "pharmacyKey": "ancha",
+    "municipality": "Mairena del Alcor",
+    "address": "Ancha, 59",
+    "phone": "955943137",
+    "owner": "Adelina Guillén Jiménez-Marina Cejudo Guillén"
+  },
+  {
+    "date": "2026-11-17",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Calderon de la Barca, 2. junto Centro Salud",
+    "phone": "955945476",
+    "owner": "Emilia Mª Piñero Delgado"
+  },
+  {
+    "date": "2026-11-18",
+    "shift": "day",
+    "pharmacyKey": "cervantes",
+    "municipality": "Mairena del Alcor",
+    "address": "Cervantes, 17",
+    "phone": "955942079",
+    "owner": "Salud y José Ma. Jiménez Jiménez"
+  },
+  {
+    "date": "2026-11-18",
+    "shift": "night",
+    "pharmacyKey": "cervantes",
+    "municipality": "Mairena del Alcor",
+    "address": "Cervantes, 17",
+    "phone": "955942079",
+    "owner": "Salud y José Ma. Jiménez Jiménez"
+  },
+  {
+    "date": "2026-11-19",
+    "shift": "day",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-11-19",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "La Muela n. 20, junto a la Recovera",
+    "phone": "955945019",
+    "owner": "Librada Moreno de los Santos"
+  },
+  {
+    "date": "2026-11-20",
+    "shift": "day",
+    "pharmacyKey": "marchenilla",
+    "municipality": "Mairena del Alcor",
+    "address": "Marchenilla, 37",
+    "phone": "955942116",
+    "owner": "Mª Gracia y Mª José Ortega Hernández"
+  },
+  {
+    "date": "2026-11-20",
+    "shift": "night",
+    "pharmacyKey": "marchenilla",
+    "municipality": "Mairena del Alcor",
+    "address": "Marchenilla, 37",
+    "phone": "955942116",
+    "owner": "Mª Gracia y Mª José Ortega Hernández"
+  },
+  {
+    "date": "2026-11-21",
+    "shift": "day",
+    "pharmacyKey": "retamiro",
+    "municipality": "Mairena del Alcor",
+    "address": "Alcalde Retamiro, esq. Ronquera,s/n.",
+    "phone": "955746069",
+    "owner": "Lorenzo y Teresa Sánchez"
+  },
+  {
+    "date": "2026-11-21",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Calderon de la Barca, 2. junto Centro Salud",
+    "phone": "955945476",
+    "owner": "Emilia Mª Piñero Delgado"
+  },
+  {
+    "date": "2026-11-22",
+    "shift": "day",
+    "pharmacyKey": "retamiro",
+    "municipality": "Mairena del Alcor",
+    "address": "Alcalde Retamiro, esq. Ronquera,s/n.",
+    "phone": "955746069",
+    "owner": "Lorenzo y Teresa Sánchez"
+  },
+  {
+    "date": "2026-11-22",
+    "shift": "night",
+    "pharmacyKey": "retamiro",
+    "municipality": "Mairena del Alcor",
+    "address": "Alcalde Retamiro, esq. Ronquera,s/n.",
+    "phone": "955746069",
+    "owner": "Lorenzo y Teresa Sánchez"
+  },
+  {
+    "date": "2026-11-23",
+    "shift": "day",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-11-23",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Manuel Jiménez Leon,81, (c/del Cementerio)",
+    "phone": "955740331",
+    "owner": "Ma. Carmen Sánchez García"
+  },
+  {
+    "date": "2026-11-24",
+    "shift": "day",
+    "pharmacyKey": "daoiz",
+    "municipality": "Mairena del Alcor",
+    "address": "Daoiz, 8",
+    "phone": "955942032",
+    "owner": "Antonio Ballesteros Montoro"
+  },
+  {
+    "date": "2026-11-24",
+    "shift": "night",
+    "pharmacyKey": "daoiz",
+    "municipality": "Mairena del Alcor",
+    "address": "Daoiz, 8",
+    "phone": "955942032",
+    "owner": "Antonio Ballesteros Montoro"
+  },
+  {
+    "date": "2026-11-25",
+    "shift": "day",
+    "pharmacyKey": "retamiro",
+    "municipality": "Mairena del Alcor",
+    "address": "Alcalde Retamiro, esq. Ronquera,s/n.",
+    "phone": "955746069",
+    "owner": "Lorenzo y Teresa Sánchez"
+  },
+  {
+    "date": "2026-11-25",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Fray Bartolomé de las Casas, 54, frente al instituto Blas Infante",
+    "phone": "955946255",
+    "owner": "Andrades Ponce, Manuel"
+  },
+  {
+    "date": "2026-11-26",
+    "shift": "day",
+    "pharmacyKey": "ancha",
+    "municipality": "Mairena del Alcor",
+    "address": "Ancha, 59",
+    "phone": "955943137",
+    "owner": "Adelina Guillén Jiménez-Marina Cejudo Guillén"
+  },
+  {
+    "date": "2026-11-26",
+    "shift": "night",
+    "pharmacyKey": "ancha",
+    "municipality": "Mairena del Alcor",
+    "address": "Ancha, 59",
+    "phone": "955943137",
+    "owner": "Adelina Guillén Jiménez-Marina Cejudo Guillén"
+  },
+  {
+    "date": "2026-11-27",
+    "shift": "day",
+    "pharmacyKey": "cervantes",
+    "municipality": "Mairena del Alcor",
+    "address": "Cervantes, 17",
+    "phone": "955942079",
+    "owner": "Salud y José Ma. Jiménez Jiménez"
+  },
+  {
+    "date": "2026-11-27",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Corredera, 319, carrt.arriba dirección Carmona",
+    "phone": "955740779",
+    "owner": "Manuel León Buide"
+  },
+  {
+    "date": "2026-11-28",
+    "shift": "day",
+    "pharmacyKey": "benajete",
+    "municipality": "Mairena del Alcor",
+    "address": "Benajete, 53",
+    "phone": "955744599",
+    "owner": "Javier Juarez Manzano"
+  },
+  {
+    "date": "2026-11-28",
+    "shift": "night",
+    "pharmacyKey": "benajete",
+    "municipality": "Mairena del Alcor",
+    "address": "Benajete, 53",
+    "phone": "955744599",
+    "owner": "Javier Juarez Manzano"
+  },
+  {
+    "date": "2026-11-29",
+    "shift": "day",
+    "pharmacyKey": "benajete",
+    "municipality": "Mairena del Alcor",
+    "address": "Benajete, 53",
+    "phone": "955744599",
+    "owner": "Javier Juarez Manzano"
+  },
+  {
+    "date": "2026-11-29",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Rosario, 60, paralela c/Corredera cerca Ayunt",
+    "phone": "955945031",
+    "owner": "López Benítez, Fernando"
+  },
+  {
+    "date": "2026-11-30",
+    "shift": "day",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-11-30",
+    "shift": "night",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-12-01",
+    "shift": "day",
+    "pharmacyKey": "marchenilla",
+    "municipality": "Mairena del Alcor",
+    "address": "Marchenilla, 37",
+    "phone": "955942116",
+    "owner": "Mª Gracia y Mª José Ortega Hernández"
+  },
+  {
+    "date": "2026-12-01",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Corredera, 51, frente Plaza de Abastos",
+    "phone": "955945227",
+    "owner": "Mª Luisa Godoy Díaz-Alfonso Corraliza Alarcón"
+  },
+  {
+    "date": "2026-12-02",
+    "shift": "day",
+    "pharmacyKey": "benajete",
+    "municipality": "Mairena del Alcor",
+    "address": "Benajete, 53",
+    "phone": "955744599",
+    "owner": "Javier Juarez Manzano"
+  },
+  {
+    "date": "2026-12-02",
+    "shift": "night",
+    "pharmacyKey": "benajete",
+    "municipality": "Mairena del Alcor",
+    "address": "Benajete, 53",
+    "phone": "955744599",
+    "owner": "Javier Juarez Manzano"
+  },
+  {
+    "date": "2026-12-03",
+    "shift": "day",
+    "pharmacyKey": "daoiz",
+    "municipality": "Mairena del Alcor",
+    "address": "Daoiz, 8",
+    "phone": "955942032",
+    "owner": "Antonio Ballesteros Montoro"
+  },
+  {
+    "date": "2026-12-03",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Rosario, 60, paralela c/Corredera cerca Ayunt",
+    "phone": "955945031",
+    "owner": "López Benítez, Fernando"
+  },
+  {
+    "date": "2026-12-04",
+    "shift": "day",
+    "pharmacyKey": "retamiro",
+    "municipality": "Mairena del Alcor",
+    "address": "Alcalde Retamiro, esq. Ronquera,s/n.",
+    "phone": "955746069",
+    "owner": "Lorenzo y Teresa Sánchez"
+  },
+  {
+    "date": "2026-12-04",
+    "shift": "night",
+    "pharmacyKey": "retamiro",
+    "municipality": "Mairena del Alcor",
+    "address": "Alcalde Retamiro, esq. Ronquera,s/n.",
+    "phone": "955746069",
+    "owner": "Lorenzo y Teresa Sánchez"
+  },
+  {
+    "date": "2026-12-05",
+    "shift": "day",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-12-05",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Corredera, 51, frente Plaza de Abastos",
+    "phone": "955945227",
+    "owner": "Mª Luisa Godoy Díaz-Alfonso Corraliza Alarcón"
+  },
+  {
+    "date": "2026-12-06",
+    "shift": "day",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-12-06",
+    "shift": "night",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-12-07",
+    "shift": "day",
+    "pharmacyKey": "ancha",
+    "municipality": "Mairena del Alcor",
+    "address": "Ancha, 59",
+    "phone": "955943137",
+    "owner": "Adelina Guillén Jiménez-Marina Cejudo Guillén"
+  },
+  {
+    "date": "2026-12-07",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Calderon de la Barca, 2. junto Centro Salud",
+    "phone": "955945476",
+    "owner": "Emilia Mª Piñero Delgado"
+  },
+  {
+    "date": "2026-12-08",
+    "shift": "day",
+    "pharmacyKey": "cervantes",
+    "municipality": "Mairena del Alcor",
+    "address": "Cervantes, 17",
+    "phone": "955942079",
+    "owner": "Salud y José Ma. Jiménez Jiménez"
+  },
+  {
+    "date": "2026-12-08",
+    "shift": "night",
+    "pharmacyKey": "cervantes",
+    "municipality": "Mairena del Alcor",
+    "address": "Cervantes, 17",
+    "phone": "955942079",
+    "owner": "Salud y José Ma. Jiménez Jiménez"
+  },
+  {
+    "date": "2026-12-09",
+    "shift": "day",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-12-09",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "La Muela n. 20, junto a la Recovera",
+    "phone": "955945019",
+    "owner": "Librada Moreno de los Santos"
+  },
+  {
+    "date": "2026-12-10",
+    "shift": "day",
+    "pharmacyKey": "marchenilla",
+    "municipality": "Mairena del Alcor",
+    "address": "Marchenilla, 37",
+    "phone": "955942116",
+    "owner": "Mª Gracia y Mª José Ortega Hernández"
+  },
+  {
+    "date": "2026-12-10",
+    "shift": "night",
+    "pharmacyKey": "marchenilla",
+    "municipality": "Mairena del Alcor",
+    "address": "Marchenilla, 37",
+    "phone": "955942116",
+    "owner": "Mª Gracia y Mª José Ortega Hernández"
+  },
+  {
+    "date": "2026-12-11",
+    "shift": "day",
+    "pharmacyKey": "benajete",
+    "municipality": "Mairena del Alcor",
+    "address": "Benajete, 53",
+    "phone": "955744599",
+    "owner": "Javier Juarez Manzano"
+  },
+  {
+    "date": "2026-12-11",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Manuel Jiménez Leon,81, (c/del Cementerio)",
+    "phone": "955740331",
+    "owner": "Ma. Carmen Sánchez García"
+  },
+  {
+    "date": "2026-12-12",
+    "shift": "day",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-12-12",
+    "shift": "night",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-12-13",
+    "shift": "day",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-12-13",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Corredera, 319, carrt.arriba dirección Carmona",
+    "phone": "955740779",
+    "owner": "Manuel León Buide"
+  },
+  {
+    "date": "2026-12-14",
+    "shift": "day",
+    "pharmacyKey": "ancha",
+    "municipality": "Mairena del Alcor",
+    "address": "Ancha, 59",
+    "phone": "955943137",
+    "owner": "Adelina Guillén Jiménez-Marina Cejudo Guillén"
+  },
+  {
+    "date": "2026-12-14",
+    "shift": "night",
+    "pharmacyKey": "ancha",
+    "municipality": "Mairena del Alcor",
+    "address": "Ancha, 59",
+    "phone": "955943137",
+    "owner": "Adelina Guillén Jiménez-Marina Cejudo Guillén"
+  },
+  {
+    "date": "2026-12-15",
+    "shift": "day",
+    "pharmacyKey": "benajete",
+    "municipality": "Mairena del Alcor",
+    "address": "Benajete, 53",
+    "phone": "955744599",
+    "owner": "Javier Juarez Manzano"
+  },
+  {
+    "date": "2026-12-15",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Fray Bartolomé de las Casas, 54, frente al instituto Blas Infante",
+    "phone": "955946255",
+    "owner": "Andrades Ponce, Manuel"
+  },
+  {
+    "date": "2026-12-16",
+    "shift": "day",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-12-16",
+    "shift": "night",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-12-17",
+    "shift": "day",
+    "pharmacyKey": "marchenilla",
+    "municipality": "Mairena del Alcor",
+    "address": "Marchenilla, 37",
+    "phone": "955942116",
+    "owner": "Mª Gracia y Mª José Ortega Hernández"
+  },
+  {
+    "date": "2026-12-17",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Corredera, 319, carrt.arriba dirección Carmona",
+    "phone": "955740779",
+    "owner": "Manuel León Buide"
+  },
+  {
+    "date": "2026-12-18",
+    "shift": "day",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-12-18",
+    "shift": "night",
+    "pharmacyKey": "vereda",
+    "municipality": "Mairena del Alcor",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "owner": "García Muñoz, Marita"
+  },
+  {
+    "date": "2026-12-19",
+    "shift": "day",
+    "pharmacyKey": "daoiz",
+    "municipality": "Mairena del Alcor",
+    "address": "Daoiz, 8",
+    "phone": "955942032",
+    "owner": "Antonio Ballesteros Montoro"
+  },
+  {
+    "date": "2026-12-19",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Fray Bartolomé de las Casas, 54, frente al instituto Blas Infante",
+    "phone": "955946255",
+    "owner": "Andrades Ponce, Manuel"
+  },
+  {
+    "date": "2026-12-20",
+    "shift": "day",
+    "pharmacyKey": "daoiz",
+    "municipality": "Mairena del Alcor",
+    "address": "Daoiz, 8",
+    "phone": "955942032",
+    "owner": "Antonio Ballesteros Montoro"
+  },
+  {
+    "date": "2026-12-20",
+    "shift": "night",
+    "pharmacyKey": "daoiz",
+    "municipality": "Mairena del Alcor",
+    "address": "Daoiz, 8",
+    "phone": "955942032",
+    "owner": "Antonio Ballesteros Montoro"
+  },
+  {
+    "date": "2026-12-21",
+    "shift": "day",
+    "pharmacyKey": "cervantes",
+    "municipality": "Mairena del Alcor",
+    "address": "Cervantes, 17",
+    "phone": "955942079",
+    "owner": "Salud y José Ma. Jiménez Jiménez"
+  },
+  {
+    "date": "2026-12-21",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Corredera, 51, frente Plaza de Abastos",
+    "phone": "955945227",
+    "owner": "Mª Luisa Godoy Díaz-Alfonso Corraliza Alarcón"
+  },
+  {
+    "date": "2026-12-22",
+    "shift": "day",
+    "pharmacyKey": "retamiro",
+    "municipality": "Mairena del Alcor",
+    "address": "Alcalde Retamiro, esq. Ronquera,s/n.",
+    "phone": "955746069",
+    "owner": "Lorenzo y Teresa Sánchez"
+  },
+  {
+    "date": "2026-12-22",
+    "shift": "night",
+    "pharmacyKey": "retamiro",
+    "municipality": "Mairena del Alcor",
+    "address": "Alcalde Retamiro, esq. Ronquera,s/n.",
+    "phone": "955746069",
+    "owner": "Lorenzo y Teresa Sánchez"
+  },
+  {
+    "date": "2026-12-23",
+    "shift": "day",
+    "pharmacyKey": "daoiz",
+    "municipality": "Mairena del Alcor",
+    "address": "Daoiz, 8",
+    "phone": "955942032",
+    "owner": "Antonio Ballesteros Montoro"
+  },
+  {
+    "date": "2026-12-23",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Rosario, 60, paralela c/Corredera cerca Ayunt",
+    "phone": "955945031",
+    "owner": "López Benítez, Fernando"
+  },
+  {
+    "date": "2026-12-24",
+    "shift": "day",
+    "pharmacyKey": "benajete",
+    "municipality": "Mairena del Alcor",
+    "address": "Benajete, 53",
+    "phone": "955744599",
+    "owner": "Javier Juarez Manzano"
+  },
+  {
+    "date": "2026-12-24",
+    "shift": "night",
+    "pharmacyKey": "benajete",
+    "municipality": "Mairena del Alcor",
+    "address": "Benajete, 53",
+    "phone": "955744599",
+    "owner": "Javier Juarez Manzano"
+  },
+  {
+    "date": "2026-12-25",
+    "shift": "day",
+    "pharmacyKey": "adelfas",
+    "municipality": "Mairena del Alcor",
+    "address": "Paseo de las Adelfas, s/n. (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "owner": "Fluja Vázquez, Julia"
+  },
+  {
+    "date": "2026-12-25",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Calderon de la Barca, 2. junto Centro Salud",
+    "phone": "955945476",
+    "owner": "Emilia Mª Piñero Delgado"
+  },
+  {
+    "date": "2026-12-26",
+    "shift": "day",
+    "pharmacyKey": "ancha",
+    "municipality": "Mairena del Alcor",
+    "address": "Ancha, 59",
+    "phone": "955943137",
+    "owner": "Adelina Guillén Jiménez-Marina Cejudo Guillén"
+  },
+  {
+    "date": "2026-12-26",
+    "shift": "night",
+    "pharmacyKey": "ancha",
+    "municipality": "Mairena del Alcor",
+    "address": "Ancha, 59",
+    "phone": "955943137",
+    "owner": "Adelina Guillén Jiménez-Marina Cejudo Guillén"
+  },
+  {
+    "date": "2026-12-27",
+    "shift": "day",
+    "pharmacyKey": "ancha",
+    "municipality": "Mairena del Alcor",
+    "address": "Ancha, 59",
+    "phone": "955943137",
+    "owner": "Adelina Guillén Jiménez-Marina Cejudo Guillén"
+  },
+  {
+    "date": "2026-12-27",
+    "shift": "night",
+    "pharmacyKey": null,
+    "municipality": "El Viso del Alcor",
+    "address": "Manuel Jiménez Leon,81, (c/del Cementerio)",
+    "phone": "955740331",
+    "owner": "Ma. Carmen Sánchez García"
+  }
+]

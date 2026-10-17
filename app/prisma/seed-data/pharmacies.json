@@ -1,0 +1,58 @@
+[
+  {
+    "key": "adelfas",
+    "displayName": "Farmacia Fluja Vázquez",
+    "address": "Paseo de las Adelfas, s/n (El Prior, frente al Colegio)",
+    "phone": "955744800",
+    "ownerName": "Julia Fluja Vázquez"
+  },
+  {
+    "key": "cervantes",
+    "displayName": "Farmacia Jiménez Jiménez",
+    "address": "Calle Cervantes, 17",
+    "phone": "955942079",
+    "ownerName": "Salud y José Mª Jiménez Jiménez"
+  },
+  {
+    "key": "retamiro",
+    "displayName": "Farmacia Sánchez",
+    "address": "Calle Alcalde Retamiro, esq. Ronquera, s/n",
+    "phone": "955746069",
+    "ownerName": "Lorenzo y Teresa Sánchez"
+  },
+  {
+    "key": "ancha",
+    "displayName": "Farmacia Guillén Jiménez",
+    "address": "Calle Ancha, 59",
+    "phone": "955943137",
+    "ownerName": "Adelina Guillén Jiménez y Marina Cejudo Guillén"
+  },
+  {
+    "key": "benajete",
+    "displayName": "Farmacia Juárez Manzano",
+    "address": "Calle Benajete, 53",
+    "phone": "955744599",
+    "ownerName": "Javier Juárez Manzano"
+  },
+  {
+    "key": "vereda",
+    "displayName": "Farmacia García Muñoz",
+    "address": "Avda. Vereda San Agustín, 36",
+    "phone": "955748818",
+    "ownerName": "Marita García Muñoz"
+  },
+  {
+    "key": "daoiz",
+    "displayName": "Farmacia Ballesteros Montoro",
+    "address": "Calle Daoiz, 8",
+    "phone": "955942032",
+    "ownerName": "Antonio Ballesteros Montoro"
+  },
+  {
+    "key": "marchenilla",
+    "displayName": "Farmacia Ortega Hernández",
+    "address": "Calle Marchenilla, 37",
+    "phone": "955942116",
+    "ownerName": "Mª Gracia y Mª José Ortega Hernández"
+  }
+]

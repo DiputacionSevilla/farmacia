@@ -1,0 +1,243 @@
+// Modelo de datos — Farmacias de guardia de Mairena del Alcor
+// Ver SDD_PWA_Farmacias_Guardia_Mairena.md §8 "Modelo de datos mínimo"
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------------------
+// Directorio de farmacias y horarios ordinarios (§4.2, §8)
+// ---------------------------------------------------------------------------
+
+enum SourceType {
+  colegio_oficial
+  farmacia
+  revision_municipal
+}
+
+enum VerificationStatus {
+  confirmed
+  pending
+  inactive
+}
+
+model Pharmacy {
+  id             String   @id @default(uuid())
+  officialName   String   @map("official_name")
+  displayName    String   @map("display_name")
+  ownerName      String?  @map("owner_name")
+  address        String
+  postalCode     String?  @map("postal_code")
+  municipality   String
+  latitude       Float?
+  longitude      Float?
+  phone          String?
+  active         Boolean  @default(true)
+  sourceType     SourceType @map("source_type")
+  sourceReference String?  @map("source_reference")
+  verificationStatus VerificationStatus @default(pending) @map("verification_status")
+  verifiedAt     DateTime? @map("verified_at")
+  verifiedBy     String?   @map("verified_by")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  openingHourRules  OpeningHourRule[]
+  openingExceptions OpeningException[]
+  dutyShifts        DutyShift[]
+
+  @@map("pharmacies")
+}
+
+enum Season {
+  all_year
+  summer
+  winter
+}
+
+model OpeningHourRule {
+  id             String   @id @default(uuid())
+  pharmacyId     String   @map("pharmacy_id")
+  pharmacy       Pharmacy @relation(fields: [pharmacyId], references: [id], onDelete: Cascade)
+  validFrom      DateTime @map("valid_from") @db.Date
+  validTo        DateTime? @map("valid_to") @db.Date
+  weekday        Int      @map("weekday") // 1 = lunes ... 7 = domingo (ISO 8601)
+  opensAt        String   @map("opens_at") // HH:mm
+  closesAt       String   @map("closes_at") // HH:mm
+  season         Season   @default(all_year)
+  sourceReference String? @map("source_reference")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([pharmacyId, weekday])
+  @@map("opening_hour_rules")
+}
+
+enum ExceptionType {
+  closed
+  special_hours
+  open_all_day
+}
+
+model OpeningException {
+  id         String        @id @default(uuid())
+  pharmacyId String        @map("pharmacy_id")
+  pharmacy   Pharmacy      @relation(fields: [pharmacyId], references: [id], onDelete: Cascade)
+  date       DateTime      @db.Date
+  type       ExceptionType
+  opensAt    String?       @map("opens_at")
+  closesAt   String?       @map("closes_at")
+  reason     String?
+  sourceReference String?  @map("source_reference")
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@unique([pharmacyId, date])
+  @@map("opening_exceptions")
+}
+
+// ---------------------------------------------------------------------------
+// Festivos (§4.3, §8)
+// ---------------------------------------------------------------------------
+
+enum HolidayScope {
+  national
+  regional
+  local
+}
+
+model Holiday {
+  id               String       @id @default(uuid())
+  date             DateTime     @db.Date
+  name             String
+  scope            HolidayScope
+  municipality     String?
+  officialSourceUrl String?     @map("official_source_url")
+  publishedAt      DateTime?    @map("published_at")
+  verifiedAt       DateTime?    @map("verified_at")
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@unique([date, scope, municipality])
+  @@map("holidays")
+}
+
+// ---------------------------------------------------------------------------
+// Calendario de guardias extraído del PDF oficial (§4.1, §8, RF009-RF010)
+// ---------------------------------------------------------------------------
+
+enum CalendarVersionStatus {
+  candidate
+  published
+  rejected
+  archived
+}
+
+model DutyCalendarVersion {
+  id              String                 @id @default(uuid())
+  status          CalendarVersionStatus  @default(candidate)
+  periodStart     DateTime               @map("period_start") @db.Date
+  periodEnd       DateTime               @map("period_end") @db.Date
+  sourceUrl       String                 @map("source_url")
+  sourceSha256    String                 @map("source_sha256")
+  etag            String?
+  lastModified    String?                @map("last_modified")
+  sourceObjectKey String                 @map("source_object_key")
+  parserVersion   String                 @map("parser_version")
+  createdAt       DateTime               @default(now()) @map("created_at")
+  createdBy       String                 @map("created_by")
+  publishedAt     DateTime?              @map("published_at")
+  publishedBy     String?                @map("published_by")
+  validationSummary Json?                @map("validation_summary")
+  notes           String?
+
+  shifts DutyShift[]
+
+  @@index([status])
+  @@map("duty_calendar_versions")
+}
+
+enum ShiftType {
+  day
+  night
+}
+
+model DutyShift {
+  id               String               @id @default(uuid())
+  calendarVersionId String              @map("calendar_version_id")
+  calendarVersion  DutyCalendarVersion  @relation(fields: [calendarVersionId], references: [id], onDelete: Cascade)
+  serviceDate      DateTime             @map("service_date") @db.Date
+  shiftType        ShiftType            @map("shift_type")
+  startsAt         DateTime             @map("starts_at")
+  endsAt           DateTime             @map("ends_at")
+  pharmacyId       String?              @map("pharmacy_id")
+  pharmacy         Pharmacy?            @relation(fields: [pharmacyId], references: [id])
+  // Datos crudos extraídos del PDF, conservados aunque no haya correspondencia
+  // todavía con una farmacia del directorio (RF009 — detección de nuevas farmacias).
+  rawName          String?              @map("raw_name")
+  rawAddress       String?              @map("raw_address")
+  rawMunicipality  String?              @map("raw_municipality")
+  rawPhone         String?              @map("raw_phone")
+  rawText          String?              @map("raw_text")
+  sourcePage       Int?                 @map("source_page")
+
+  @@unique([calendarVersionId, serviceDate, shiftType])
+  @@map("duty_shifts")
+}
+
+// ---------------------------------------------------------------------------
+// Auditoría (§8, RN008-RN009)
+// ---------------------------------------------------------------------------
+
+enum AuditResult {
+  success
+  failure
+}
+
+model AuditEvent {
+  id            String      @id @default(uuid())
+  occurredAt    DateTime    @default(now()) @map("occurred_at")
+  userId        String?     @map("user_id")
+  action        String
+  entityType    String      @map("entity_type")
+  entityId      String?     @map("entity_id")
+  beforeJson    Json?       @map("before_json")
+  afterJson     Json?       @map("after_json")
+  ipHash        String?     @map("ip_hash")
+  result        AuditResult
+  correlationId String      @map("correlation_id")
+
+  @@index([entityType, entityId])
+  @@index([occurredAt])
+  @@map("audit_events")
+}
+
+// ---------------------------------------------------------------------------
+// Usuarios administrativos (RBAC — §3). Pensado para sustituirse por OIDC
+// corporativo manteniendo esta tabla como espejo de roles y auditoría local.
+// ---------------------------------------------------------------------------
+
+enum AdminRole {
+  content_admin
+  tech_admin
+  auditor
+}
+
+model AdminUser {
+  id           String     @id @default(uuid())
+  email        String     @unique
+  name         String
+  passwordHash String     @map("password_hash")
+  roles        AdminRole[]
+  active       Boolean    @default(true)
+  createdAt    DateTime   @default(now()) @map("created_at")
+  lastLoginAt  DateTime?  @map("last_login_at")
+
+  @@map("admin_users")
+}
