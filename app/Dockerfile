@@ -10,6 +10,12 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends \
     openssl libfontconfig1 libfreetype6 \
     && rm -rf /var/lib/apt/lists/*
+# Evita la llamada de telemetría "checkpoint" de Prisma: en una red con
+# salida a internet restringida o inestable (CPD municipal) puede colgar
+# el build durante varios minutos esperando ese aviso de versión.
+ENV CHECKPOINT_DISABLE=1
+# Evita la telemetría de Next.js por el mismo motivo.
+ENV NEXT_TELEMETRY_DISABLED=1
 
 # ---------------------------------------------------------------------------
 FROM base AS deps
@@ -39,6 +45,11 @@ COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/resources ./resources
 COPY --from=builder /app/package.json ./package.json
 COPY --from=builder /app/next.config.ts ./next.config.ts
+COPY --from=builder /app/tsconfig.json ./tsconfig.json
+# prisma/seed.ts importa utilidades de src/lib (p. ej. el motor temporal)
+# para no duplicar lógica; por eso src/ también se necesita en tiempo de
+# ejecución, no solo durante el build de Next.
+COPY --from=builder /app/src ./src
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh \
     && mkdir -p /app/storage \

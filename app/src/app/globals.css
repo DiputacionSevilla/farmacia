@@ -36,8 +36,12 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Pila de fuentes del sistema: evita depender de Google Fonts durante el
+     build de Docker (puede no haber salida a internet en el CPD). */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
+    sans-serif;
+  --font-mono: ui-monospace, "Cascadia Code", "Segoe UI Mono", Consolas,
+    monospace;
 
   --color-brand-blue-950: var(--color-brand-blue-950);
   --color-brand-blue-900: var(--color-brand-blue-900);
