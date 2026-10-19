@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getOpenNow } from "@/lib/queries";
 import { WidgetRuntime } from "@/components/WidgetRuntime";
 import {
@@ -116,8 +117,15 @@ export default async function WidgetPage() {
         <div className="flex items-baseline justify-between gap-2">
           <h1
             id="widget-title"
-            className="text-lg font-bold text-brand-blue-900"
+            className="flex items-center gap-2 text-lg font-bold text-brand-blue-900"
           >
+            <Image
+              src="/escudo-mairena.webp"
+              alt=""
+              width={26}
+              height={31}
+              className="shrink-0"
+            />
             Farmacia de guardia ahora
           </h1>
           <p className="shrink-0 text-xs text-brand-blue-700">
