@@ -2,3 +2,4 @@
 - [Objetivo de despliegue](deployment-target.md) — CPD municipal, Nginx Proxy Manager, farmacias.mairenadelalcor.net, flujo git pull + Docker Compose
 - [Decisiones de arquitectura](architecture-decisions.md) — por qué se tomaron ciertas decisiones técnicas no obvias desde el código, y bugs ya corregidos a no repetir
 - [Estado al cierre del 17-oct-2026](session-2026-10-17-status.md) — qué quedó pendiente de confirmar en el CPD y próximos pasos
+- [session-2026-10-19-widget](session-2026-10-19-widget.md) — widget /widget para OpenCms desplegado; pendiente dominio y NPM

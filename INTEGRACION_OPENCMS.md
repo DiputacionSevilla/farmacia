@@ -11,6 +11,27 @@ más abiertas, enlace al calendario completo y el 112.
   una guardia vieja tras el cambio de turno de las 9:30 / 22:00.
 - No hay nada que mantener en OpenCms: los datos viven en esta aplicación.
 
+## 0. Estado actual y pasos para quien publique en OpenCms
+
+- Widget **desplegado y funcionando** en el servidor del CPD (10.158.0.3,
+  puerto 3005, detrás de Nginx Proxy Manager como
+  `farmacias.mairenadelalcor.net`). Incluye el escudo municipal junto al título.
+- Antes de publicar, el Departamento de Informática debe confirmar el
+  **dominio exacto de la web municipal** y fijarlo en
+  `/opt/farmacia/app/.env` (`WIDGET_FRAME_ANCESTORS`), y luego ejecutar
+  `sudo docker compose up -d` en `/opt/farmacia/app`. Si no coincide, el
+  navegador bloquea el recuadro.
+- Pasos en OpenCms:
+  1. Crear (o editar) la página destino, p. ej. `/servicios/farmacias-de-guardia`.
+  2. Añadir un elemento de tipo **HTML / código fuente** (no el editor de
+     texto enriquecido, que suele eliminar `<script>` e `<iframe>`).
+  3. Pegar el fragmento de la opción 1 (o la 2 si el script se filtra).
+  4. Publicar la página y añadirla al menú de navegación y a la portada.
+  5. Verificar con la lista de la sección 5.
+- Si el rol del editor no permite HTML libre, pedir a un administrador de
+  OpenCms que cree un **elemento/formato reutilizable** con ese fragmento y
+  lo deje disponible para insertarlo en cualquier página.
+
 ## 1. Opción recomendada: script de una línea
 
 En OpenCms, en el elemento de contenido **HTML / Código fuente** (el que admite
