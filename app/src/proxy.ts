@@ -23,8 +23,26 @@ async function hasValidSession(request: NextRequest): Promise<boolean> {
   }
 }
 
+/**
+ * Orígenes autorizados a incrustar /widget en un iframe (web municipal en
+ * OpenCms). Configurable por entorno, separados por espacios.
+ */
+const DEFAULT_WIDGET_FRAME_ANCESTORS =
+  "https://www.mairenadelalcor.es https://mairenadelalcor.es";
+
 export default async function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
+
+  if (pathname === "/widget") {
+    const ancestors =
+      process.env.WIDGET_FRAME_ANCESTORS || DEFAULT_WIDGET_FRAME_ANCESTORS;
+    const response = NextResponse.next();
+    response.headers.set(
+      "Content-Security-Policy",
+      `frame-ancestors 'self' ${ancestors}`
+    );
+    return response;
+  }
   const isLoginPage = pathname === "/admin/login";
   const authenticated = await hasValidSession(request);
 
@@ -43,5 +61,5 @@ export default async function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/admin/:path*"],
+  matcher: ["/admin/:path*", "/widget"],
 };

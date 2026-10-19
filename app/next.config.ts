@@ -21,12 +21,22 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        source: "/(.*)",
+        // /widget se incrusta en la web municipal (OpenCms): su política de
+        // framing (CSP frame-ancestors) se fija en runtime en src/proxy.ts.
+        source: "/((?!widget$).*)",
         headers: [
           { key: "X-Content-Type-Options", value: "nosniff" },
           { key: "X-Frame-Options", value: "DENY" },
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
         ],
+      },
+      {
+        source: "/widget",
+        headers: [{ key: "X-Content-Type-Options", value: "nosniff" }],
+      },
+      {
+        source: "/widget.js",
+        headers: [{ key: "Cache-Control", value: "public, max-age=3600" }],
       },
       {
         source: "/sw.js",

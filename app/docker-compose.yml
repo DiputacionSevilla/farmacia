@@ -21,6 +21,7 @@ services:
       STORAGE_DRIVER: filesystem
       STORAGE_PATH: /app/storage
       APP_TIMEZONE: Europe/Madrid
+      WIDGET_FRAME_ANCESTORS: ${WIDGET_FRAME_ANCESTORS:-https://www.mairenadelalcor.es https://mairenadelalcor.es}
       NODE_ENV: production
     ports:
       - "${APP_PORT:-3000}:3000"

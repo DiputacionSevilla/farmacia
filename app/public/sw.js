@@ -97,6 +97,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
   if (isAdminPath(url)) return; // nunca cachear administración
+  if (url.pathname === "/widget") return; // incrustado en OpenCms: siempre en vivo
 
   // Navegaciones (documentos HTML): network-first con último shell como
   // respaldo y offline.html como última red de seguridad.
